@@ -14,7 +14,7 @@ button {
 	background-color: #222222;
 	border: 0px;
 	bottom: 0;
-	right: 100px;
+	right: 95px;
 
 }
 
@@ -38,14 +38,23 @@ nav {
 
 .fixed .nav  { position: fixed; top: 60px; }
 
+.sticky {
+	 position: sticky;
+    top: 40px;
+}
+
+
 
 
 .profile {
-	padding: 10% 20% 0 20%;
+	padding: 5% 20% 5% 20%;
 
 	display: inline-flex;
 }
 
+.prof-title {
+	margin-top: 5%;
+}
 
 
 
@@ -59,6 +68,10 @@ nav {
 	margin-left: 5%;
 }
 
+.details > ul {
+	margin-left:10px;
+}
+
 .profile-pic {
 	width: 30%;
 	
@@ -68,3 +81,45 @@ nav {
 	border-radius: 50%;
 	
 }
+
+#Experiences-section {
+	background: #F3EFE0;
+}
+
+.exp-title {
+	padding-top: 100px;
+	margin-bottom: 10%;
+}
+
+.exp-item {
+	display: inline-flex;
+	padding: 0 20% 5% 20%;
+
+}
+
+.item-title {
+	width: 400px;
+	padding-right: 15%;
+}
+
+
+.dont-collapse-sm {
+	display:hidden;
+}
+
+
+@media (max-width: 767px) { 
+		.nav {
+			width: 100%;
+			right: 0;
+		}
+
+		#scrollbutton {
+			bottom: 0;	
+			margin: auto;
+			display:none;
+		}
+
+		
+	}
+	

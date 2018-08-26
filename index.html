@@ -14,25 +14,28 @@
    
     <div class="jumbotron">
   
-  <button><i class="fa fa-arrow-circle-down scroll-down" style="font-size:36px"></i></button>
+  <button id="scrollbutton"><i class="fa fa-arrow-circle-down scroll-down" style="font-size:36px"></i></button>
 
 </div>
 
 
    <!-- Collect the nav links, forms, and other content for toggling -->
-     <nav>
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#profile">Profile</a></li>
-          <li><a href="#experiences">Experiences</a></li>
+     <nav class="navbar navbar-default sticky">
+      <button class="hidden visible-xs" data-toggle="collapse" data-target="#content">collapse</button>
+        <ul class="nav navbar-nav collapse dont-collapse-sm" id="content">
+          <li class="active"><a href="#profile-section">Profile</a></li>
+          <li><a href="#Experiences-section">Experiences</a></li>
           <li><a href="#abilities">Abilities</a></li>
                     <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
+          
         </ul>
       
     </nav>
 
-    <section>
-      <center><h1>Profile</h1></center>
+    <section id="profile-section">
+      <center><h1 class="prof-title">Profile</h1>
+        <hr></center>
       <div class="profile">
          <div class="about-me">
             <center><h3>Profile</h3></center>
@@ -46,6 +49,7 @@
 
         <div class="details">
             <center><h3>Details</h3></center>
+
             <ul>
                 <li><a href="#profile">Profile</a></li>
                 <li><a href="#experiences">Experiences</a></li>
@@ -57,10 +61,59 @@
         
       </div>
        
-
     </section>
 
-    <section></section>
+    <section id="Experiences-section">
+      <center>
+        <h1 class="exp-title">Experience</h1>
+      </center>
+
+      <center>
+        <div class="exp-list">
+
+                <div class="exp-item">
+
+                  <div class="item-title"><h4>Shipadviser</h4>
+                    <p>Sed a malesuada ex</p>
+
+
+                  </div>
+                  <div class="item-job"><h4>Page Administrator</h4>
+                      <p>Praesent faucibus ultricies nisi at ultricies. Pellentesque finibus felis sed ullamcorper laoreet. Praesent interdum nec lorem eu euismod.</p>
+                  </div>
+                </div>
+
+
+
+                <div class="exp-item">
+                  
+                  <div class="item-title"><h4>Shipadviser</h4>
+                    <p>Sed a malesuada ex</p>
+
+
+                  </div>
+                  <div class="item-job"><h4>Page Administrator</h4>
+                      <p>Praesent faucibus ultricies nisi at ultricies. Pellentesque finibus felis sed ullamcorper laoreet. Praesent interdum nec lorem eu euismod.</p>
+                  </div>
+                </div>
+
+
+                <div class="exp-item">
+                  
+                  <div class="item-title"><h4>Shipadviser</h4>
+                    <p>Sed a malesuada ex</p>
+
+
+                  </div>
+                  <div class="item-job"><h4>Page Administrator</h4>
+                      <p>Praesent faucibus ultricies nisi at ultricies. Pellentesque finibus felis sed ullamcorper laoreet. Praesent interdum nec lorem eu euismod.</p>
+                  </div>
+                </div>
+                
+        </div>
+      </center>
+
+    </section>
 
 
 
