@@ -1,0 +1,70 @@
+.jumbotron {
+	background-image: url(v576L3f.jpg);
+	height: 100vh;
+
+	margin: 0;
+	padding: 0;
+}  
+
+button {
+
+	position: absolute;
+	height: 60px;
+	width: 110px;
+	background-color: #222222;
+	border: 0px;
+	bottom: 0;
+	right: 100px;
+
+}
+
+button > i {
+	color: white;}
+
+nav {
+	position: absolute;
+	right: 100px;
+	background-color: black;
+}
+
+.nav  { border: 0px; background-color: #222222; position: absolute; top: 100%; right: 5%; width: 110px; z-index: 999; }
+.nav .navbar-collapse { padding: 0px; max-height: none; }
+.nav .navbar-nav { float: none; }
+
+.nav > li { display: block; float: none; height: 80px; } 
+.nav > li a { display: block;  height: 80px; text-align: center; padding-top: 30px; font-weight: 600; color: #FFFFFF; }
+.nav > li a:hover, .navbar .nav > li a:focus { color: #999999; }
+
+
+.fixed .nav  { position: fixed; top: 60px; }
+
+
+
+.profile {
+	padding: 10% 20% 0 20%;
+
+	display: inline-flex;
+}
+
+
+
+
+.about-me {
+	width: 30%;
+	margin-right: 5%;
+}
+
+.details {
+	width: 30%;
+	margin-left: 5%;
+}
+
+.profile-pic {
+	width: 30%;
+	
+}
+.profile-pic > img {
+	width: 300px;
+	border-radius: 50%;
+	
+}
