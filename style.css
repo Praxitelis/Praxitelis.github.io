@@ -3,7 +3,9 @@
 }
 
 
-
+h4 {
+	margin-bottom: 15px;
+}
 
 .box-container {
     
@@ -13,7 +15,7 @@
       
   }
 
-#header, #profile, #experience {
+#header, #experience {
 	height: 100vh;
 }
 
@@ -83,6 +85,28 @@
 }
 
 
+#profile {
+	margin-right: 10%;
+	margin-left: 10%;
+	padding-top: 5%;
+}
+
+.profpic {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin-left: 30%;
+}
+
+
+.section-container {
+	display: inline-flex;
+}
+
+.box-1 {
+	width: 30%;
+	
+}
 
 @media screen and (max-width: 600px) {
 
