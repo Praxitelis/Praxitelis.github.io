@@ -32,13 +32,19 @@ hr {
 
 
 
-#header > img {
+#header > a {
 	width: 110px;	
 	border-radius: 5% 5% 0 0;
 	background-color: white;
 	position: absolute;
 	right: 5%;
 	bottom: 0;
+	text-align: center;
+}
+
+#header > a > img {
+	height: 50px;
+
 }
 
 
@@ -187,7 +193,7 @@ hr {
   	top: 0;
   }
 
-  #header > img {
+  #header > a  {
 	width: 60px;	
 	border-radius: 5% 5% 0 0;
 	background-color: white;
