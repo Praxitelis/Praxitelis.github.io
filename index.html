@@ -26,10 +26,9 @@
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+  <a href="#profile" class="active">Home</a>
+  <a href="#experience">News</a>
+  
   
 </div>
 		
@@ -38,7 +37,7 @@
 
 	
 
-	<section class="box-container" id="profile">
+	<section class="box-container section" id="profile">
 		<div class="headbox">
 			<h1>Profile</h1>
 			<hr>
@@ -74,7 +73,7 @@
 
 	</section>
 
-	<section class="box-container" id="experience">
+	<section class="box-container section" id="experience">
 		
 
 	</section>
@@ -93,8 +92,33 @@
 
     </script>
 
+    <script>
 
 
+(function() {
+  'use strict';
+
+  var section = document.querySelectorAll(".section");
+  var sections = {};
+  var i = 0;
+
+  Array.prototype.forEach.call(section, function(e) {
+    sections[e.id] = e.offsetTop;
+  });
+
+  window.onscroll = function() {
+    var scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+
+    for (i in sections) {
+      if (sections[i] <= scrollPosition) {
+        document.querySelector('.active').setAttribute('class', ' ');
+        document.querySelector('a[href*=' + i + ']').setAttribute('class', 'active');
+      }
+    }
+  };
+})();
+
+</script>
 
 
 </html>
