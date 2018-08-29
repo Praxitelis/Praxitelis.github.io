@@ -1,7 +1,12 @@
 * {
 	margin: 0;
+	font-family: 'Crimson Text';
+	font-size: 22px;
 }
 
+h1 {
+	font-size: 1.5em;
+}
 
 h4 {
 	margin-bottom: 15px;
@@ -28,6 +33,9 @@ hr {
 
 #header {
 	background-image: url('v576L3f.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 
@@ -35,7 +43,7 @@ hr {
 #header > a {
 	width: 110px;	
 	border-radius: 5% 5% 0 0;
-	background-color: white;
+	
 	position: absolute;
 	right: 5%;
 	bottom: 0;
@@ -44,6 +52,7 @@ hr {
 
 #header > a > img {
 	height: 50px;
+	color: white;
 
 }
 
