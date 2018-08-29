@@ -13,6 +13,12 @@ h4 {
 	text-align: center;
 }
 
+.myname {
+	color: #66FCF1;
+	font-size: 5em;
+	margin: auto;
+}
+
 hr {
 	width: 75%;
 	margin: auto;
@@ -32,10 +38,7 @@ hr {
 }
 
 #header {
-	background-image: url('v576L3f.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+	background-color: black;
 }
 
 
@@ -43,7 +46,7 @@ hr {
 #header > a {
 	width: 110px;	
 	border-radius: 5% 5% 0 0;
-	
+	background-color: #66FCF1;
 	position: absolute;
 	right: 5%;
 	bottom: 0;
