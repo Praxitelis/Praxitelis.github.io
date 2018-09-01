@@ -8,13 +8,22 @@ h1 {
 	font-size: 1.5em;
 }
 
-h4 {
-	margin-bottom: 15px;
-	text-align: center;
+h3 {
+  color: #85CDCA;
 }
 
+h4 {
+	margin-bottom: 15px;
+  color: #85CDCA;
+	
+}
+
+
+
+
+
 .myname {
-	color: #66FCF1;
+	color: #E27D5F;
 	font-size: 5em;
 	margin: auto;
 }
@@ -27,18 +36,17 @@ hr {
 
 .box-container {
     
-    display: flex;
+    
     height: 100%;
     flex-wrap: wrap;
-      
-  }
+}
 
-#header, #experience {
+#header {
 	height: 100vh;
 }
 
 #header {
-	background-color: black;
+	background-color: #7DC2AD;
 }
 
 
@@ -46,10 +54,10 @@ hr {
 #header > a {
 	width: 110px;	
 	border-radius: 5% 5% 0 0;
-	background-color: #66FCF1;
+	background-color: #E27D5F;
 	position: absolute;
 	right: 5%;
-	bottom: 0;
+	bottom: 0%;
 	text-align: center;
 }
 
@@ -61,14 +69,19 @@ hr {
 
 
 #experience {
-	background-color: dodgerblue;
+	background-color: #F3EFE0;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #202833;
 }
+
 
 
 
 .topnav {
   position: relative;
-  background-color: #333;
+  background-color: #80C7B9;
   float: right;
   right: 5%; 
   width: 110px;	
@@ -93,7 +106,7 @@ hr {
 }
 
 .active {
-  background-color: grey;
+  background-color: #85CDCA;
   color: white;
 }
 
@@ -112,17 +125,20 @@ hr {
 
 #profile {
 	
-	margin-left: 10%;
+	padding-left: 10%;
 	padding-top: 5%;
 	padding-bottom: 5%;
+	color: #202833;
 }
+
+
 
 .profpic {
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
 	margin-left: 30%;
-	border: 1px solid black;
+	border: 1px solid #66FCF1;
 
 }
 
@@ -130,7 +146,10 @@ hr {
 .section-container {
 	display: inline-flex;
 	justify-content: center;
+	color: #202833;
+  
 }
+
 
 .headbox {
 	width:100%;
@@ -140,10 +159,26 @@ hr {
 
 }
 
-.box-1 {
-	width: 25%;
+.career {
+  
+  padding-top: 5%;
+  padding-left: 12%;
+  text-align: left;
+}
 
-	
+.box-1 {
+	width: 25%;	
+}
+
+.box-2 {
+  width: 35%;
+
+}
+
+
+
+#details-list {
+	list-style: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -152,7 +187,7 @@ hr {
 
 .topnav {
   
-  background-color: #222222;
+  background-color: #202833;
 }
 
 .topnav a {
@@ -235,3 +270,42 @@ hr {
 
 }  
 
+
+
+
+
+@keyframes pulse_animation {
+    0% { transform: scale(1); }
+    30% { transform: scale(1.20); }
+    40% { transform: scale(1.40); }
+    50% { transform: scale(1.20); }
+    60% { transform: scale(1); }
+    70% { transform: scale(1.20); }
+    80% { transform: scale(1.40); }
+    100% { transform: scale(1); }
+}
+
+
+.pulse {
+    animation-name: pulse_animation;
+    animation-duration: 2000ms;
+    transform-origin:70% 70%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+.updown {
+  animation: MoveUpDown 1s linear infinite;
+  position: absolute;
+  bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 30px;
+  }
+}
