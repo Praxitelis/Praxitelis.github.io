@@ -88,13 +88,22 @@ section {
 }
 
 
-.experience {
+.experience, .projects {
   background-color: #F3EFE0;
+}
+
+.projects > .box-container > .box30 {
+  justify-content:  center;
+  margin-bottom: 5%;
 }
 
 
 .starsmargin {
   margin-left: 50%;
+}
+
+.filled{
+  color: turquoise;
 }
 
 .title {
@@ -146,6 +155,14 @@ section {
   border: 1px solid #66FCF1;
 }
 
+
+
+footer {
+    height: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #434242;
+}
 
 /*====================== MEDIA QUERIES ==============================*/
 
