@@ -9,6 +9,18 @@ ul {
   padding-left: 0;
 }
 
+
+h1 {
+  font-size: 1.8em;
+  color:#85CDCA;
+  margin-bottom: 15px;
+}
+
+h4 {
+  color:#85CDCA;
+  font-size: 1.2em;
+}
+
 #header {
   height: 100vh;
 }
@@ -33,6 +45,18 @@ ul {
   height: 50px;
   color: white;
 
+}
+
+.myname {
+  margin: auto;
+  font-size: 5em;
+  color: white;
+}
+
+#header > div > a {
+  
+
+  
 }
 
 
@@ -97,6 +121,9 @@ section {
   margin-bottom: 5%;
 }
 
+.star {
+  color: grey;
+}
 
 .starsmargin {
   margin-left: 50%;
@@ -156,7 +183,6 @@ section {
 }
 
 
-
 footer {
     height: 100%;
     padding-top: 3%;
@@ -173,6 +199,7 @@ footer {
 
 
 #header > a {
+  padding:0;
   width: 110px; 
   border-radius: 5% 5% 0 0;
   background-color: #E27D5F;
@@ -183,6 +210,11 @@ footer {
 }
 
 
+.myname {
+  
+  font-size: 2em;
+
+}
 
 
 
@@ -229,6 +261,7 @@ footer {
 
 
     #header > a {
+      padding:0;
   width: 110px; 
   border-radius: 5% 5% 0 0;
   background-color: #E27D5F;
@@ -238,7 +271,11 @@ footer {
   text-align: center;
 }
 
-
+.myname {
+  margin: auto;
+  font-size: 2em;
+  color: white;
+}
 
 
 
@@ -299,6 +336,7 @@ footer {
   .starsmargin {
     margin-left: 10%;
   }
+
 
 .title{
   width: 100%;
