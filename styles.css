@@ -196,7 +196,9 @@ footer {
 
 @media screen and (max-width: 600px) {
 
-
+header {
+  height: 91vh;
+}
 
 #header > a {
   padding:0;
@@ -207,6 +209,7 @@ footer {
   right: 0px;
   bottom: 0px;
   text-align: center;
+  
 }
 
 
@@ -259,7 +262,7 @@ footer {
 
 @media screen and (max-width: 600px) {
 
-
+ 
     #header > a {
       padding:0;
   width: 110px; 
@@ -269,6 +272,7 @@ footer {
   right: 0px;
   bottom: 0px;
   text-align: center;
+
 }
 
 .myname {
