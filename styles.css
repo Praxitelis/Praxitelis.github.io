@@ -48,17 +48,17 @@ p {
 
 }
 
-.myname {
+#header > div {
   margin: auto;
-  font-size: 5em;
+}
+
+.myname {
+  font-size: 6em;
   color: white;
-}
-
-#header > div > a {
-  
-
   
 }
+
+
 
 
 .topnav {
@@ -150,8 +150,8 @@ section {
 
 
 
-.box15 {
-  /*background-color: grey;*/
+.box15 > p {
+  width: 50px;
    
 }
 
@@ -189,6 +189,11 @@ footer {
     padding-top: 3%;
     padding-bottom: 3%;
     background-color: #434242;
+
+}
+
+footer > div > p {
+  color: white;
 }
 
 /*====================== MEDIA QUERIES ==============================*/
