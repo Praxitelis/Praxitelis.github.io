@@ -49,9 +49,6 @@ p {
 }
 
 #header > div {
- 
-  
-  
   align-self: center;
 }
 
@@ -205,9 +202,13 @@ footer > div > p {
   height: 100vh;
 }
 
+#header > div {
+  align-self: center;
 }
 
-@media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 800px)  {
 
 header {
   height: 91vh;
@@ -225,17 +226,21 @@ header {
   
 }
 
-
-.myname {
-  
-  font-size: 2em;
-
+#header > div {
+ 
+ align-self: center;
+ vertical-align: center;
 }
 
 
+.myname {
+  font-size: 3em;
+}
 
 .topnav {
-  
+  right:0;
+  top: 0;
+  width: 100%;
   background-color: #202833;
 }
 
@@ -255,13 +260,34 @@ header {
     display: block;
   }
 
+  .topnav.responsive {position: sticky;}
+    .topnav.responsive .icon {
+      float: right;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
 
 .box-container {
   display: block;
    padding: 0;
     margin: 0;
 }
+  .header-container{
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
 
+.box20 {
+  width: 100%;
+  
+}
 
 .starsmargin {
     margin-left: 0%;
@@ -343,6 +369,12 @@ header {
 
   .box-container {
     display: block;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header-container{
+    display: flex;
     padding: 0;
     margin: 0;
   }
