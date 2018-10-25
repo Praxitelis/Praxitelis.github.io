@@ -284,13 +284,23 @@ header {
     margin: 0;
   }
 
-.box20 {
+.box20, .box30, .box40 {
   width: 100%;
-  
+  text-align: center;
+
+
+}
+
+.profpic {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 0;
+  border: 1px solid #66FCF1;
 }
 
 .starsmargin {
-    margin-left: 0%;
+    margin-left: 40%;
   }
 
 .title{
