@@ -49,7 +49,10 @@ p {
 }
 
 #header > div {
-  margin: auto;
+ 
+  
+  
+  align-self: center;
 }
 
 .myname {
