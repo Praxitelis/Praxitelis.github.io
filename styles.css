@@ -277,6 +277,7 @@ header {
   display: block;
    padding: 0;
     margin: 0;
+
 }
   .header-container{
     display: flex;
@@ -287,10 +288,12 @@ header {
 .box20, .box30, .box40 {
   width: 100%;
   text-align: center;
+
 }
 
 .box20 > p, .box40 > p, .box20 > ul {
   text-align: left;
+
 }
 
 
@@ -309,6 +312,16 @@ header {
 .title{
   width: 100%;
 }
+
+.center > .box15{
+  margin: auto;
+}
+
+.center > p, .center > ul{
+  padding: 5px;
+}
+
+
 
 }
 
