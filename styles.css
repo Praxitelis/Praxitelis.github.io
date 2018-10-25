@@ -287,9 +287,12 @@ header {
 .box20, .box30, .box40 {
   width: 100%;
   text-align: center;
-
-
 }
+
+.box20 > p, .box40 > p, .box20 > ul {
+  text-align: left;
+}
+
 
 .profpic {
   height: 200px;
