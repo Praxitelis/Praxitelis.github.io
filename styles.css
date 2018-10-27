@@ -26,6 +26,7 @@ p {
 }
 
 
+
 #header {
   background-color: #7DC2AD;
 }
@@ -52,10 +53,9 @@ p {
   align-self: center;
 }
 
-.myname {
-  font-size: 6em;
-  color: white;
-  
+object > embed {
+  width:60vw;
+  height: auto;
 }
 
 
@@ -214,6 +214,8 @@ footer > div > p {
     width: 30%;
   }
 
+
+
   .profpic {
   height: 200px;
   width: 200px;
@@ -247,10 +249,6 @@ header {
  vertical-align: center;
 }
 
-
-.myname {
-  font-size: 3em;
-}
 
 .topnav {
   right:0;
@@ -324,9 +322,7 @@ header {
   margin-left: 40%;
 }
 
-.title{
-  width: 100%;
-}
+
 
 .center > .box15{
   margin: auto;
@@ -361,8 +357,7 @@ header {
 
 .myname {
   margin: auto;
-  font-size: 2em;
-  color: white;
+  
 }
 
 
@@ -432,9 +427,7 @@ header {
   }
 
 
-.title{
-  width: 100%;
-}
+
 
 p, h4, h5, ul {
   padding: 5px;
