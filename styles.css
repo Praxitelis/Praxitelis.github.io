@@ -85,7 +85,9 @@ object > embed {
 
 
 .topnav a:hover {
+
   background-color: white;
+  transition: background-color 1s;
   color: black;
 }
 
@@ -125,8 +127,15 @@ section {
   margin-bottom: 5%;
 }
 
+.box15 > p {
+  margin-bottom: 10px;
+}
+
 .star {
   color: grey;
+  display: inline-block;
+ font-size: 1em;
+ transition:font-size 1s;
 }
 
 .starsmargin {
@@ -135,6 +144,9 @@ section {
 
 .filled{
   color: turquoise;
+}
+.star:hover {
+   transform: scale(1.4);
 }
 
 .title {
