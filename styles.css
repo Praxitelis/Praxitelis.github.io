@@ -28,6 +28,7 @@ p {
 
 
 #header {
+  background-image: url("Untitled-1.jpg");
   background-color: #7DC2AD;
 }
 
@@ -115,6 +116,7 @@ section {
 
 
 .experience, .projects {
+  background-image: url("grey-back.jpg");
   background-color: #F3EFE0;
 }
 
