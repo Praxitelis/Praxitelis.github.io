@@ -183,6 +183,17 @@ section {
   border: 1px solid #66FCF1;
 }
 
+#contacts {
+  margin: auto;
+
+}
+
+#contacts > a {
+  margin-right: 15px;
+  text-decoration: none;
+ 
+}
+
 
 footer {
   height: 100%;
