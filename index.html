@@ -27,7 +27,7 @@
 			
 		</div>
 		
-		<a href="#godown" class="scroll">
+		<a href="#godown" class="scroll" id="stick-bottom">
 			<i class="updown fas fa-angle-down"></i>
 		</a>
 	
@@ -446,21 +446,17 @@
 
 	<script>
 
-	
+		window.onresize = function(event) {
+			var thisheight = window.innerHeight +'px';
+		    document.querySelector('header').style.height = thisheight;
+		    document.getElementById('stick-bottom').style.bottom = '0px';
 
+		};
 
-
-window.onresize = function(event) {
-	var thisheight = window.innerHeight +'px';
-    document.querySelector('header').style.height = thisheight;
-};
-
-window.onload = function(event) {
-	var thisheight = window.innerHeight +'px';
-    document.querySelector('header').style.height = thisheight;
-};
-
-
+		window.onload = function(event) {
+			var thisheight = window.innerHeight +'px';
+		    document.querySelector('header').style.height = thisheight;
+		};
 
 	</script>
 

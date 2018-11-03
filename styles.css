@@ -434,6 +434,7 @@ footer {
     border-radius: 5% 5% 0 0;
     background-color: transparent;
     position: absolute;
+    bottom: 0px;
     left: 50%;
     margin-left: -30px;
   }
