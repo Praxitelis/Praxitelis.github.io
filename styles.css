@@ -45,22 +45,16 @@ p {
   text-align: center;
 }
 
-#header > a > img {
-  height: 50px;
-  color: white;
 
-}
 
 #header > div {
   align-self: center;
 }
 
 object > embed {
-  width:60vw;
+  width:70vw;
   height: auto;
 }
-
-
 
 
 .topnav {
@@ -282,10 +276,10 @@ header {
   padding:0;
   width: 110px; 
   border-radius: 5% 5% 0 0;
-  background-color: #E27D5F;
+  background-color: transparent;
   position: absolute;
-  right: 0px;
-  bottom: 0px;
+  left: 50%;
+  margin-left: -55px;
   text-align: center;
   
 }
