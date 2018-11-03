@@ -460,11 +460,33 @@
 		};
 
 
-		window.addEventListener("orientationchange", function() {
-   var thisheight = window.innerHeight +'px';
+/*		window.addEventListener("orientationchange", function() {
+   			var thisheight = window.innerHeight +'px';
 		    document.querySelector('header').style.height = thisheight;
 		    document.getElementById('stick-bottom').style.bottom = '0px';
 });
+*/
+		var mql = window.matchMedia("(orientation: portrait)");
+
+
+
+// Add a media query change listener
+mql.addListener(function(m) {
+	if(m.matches) {
+		var thisheight = window.innerHeight +'px';
+		    document.querySelector('header').style.height = thisheight;
+		    document.getElementById('stick-bottom').style.bottom = '0px';
+	}
+	else {
+		var thisheight = window.innerHeight +'px';
+		    document.querySelector('header').style.height = thisheight;
+		    document.getElementById('stick-bottom').style.bottom = '0px';
+	}
+});
+
+
+
+
 		
 	</script>
 
