@@ -241,9 +241,7 @@ footer {
   min-height: calc(var(--vh, 1vh) * 100);
 }
 
-.u-prevent-jump {
-    transition: min-height 1000s steps(1);
-}
+
 
 #header > div {
   align-self: center;
