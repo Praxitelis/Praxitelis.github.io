@@ -237,12 +237,12 @@ footer {
 /*====================== MEDIA QUERIES ==============================*/
 @media screen and (min-width: 600px) {
 #header {
-  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
-  height: calc(var(--vh, 1vh) * 100);
+  min-height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  min-height: calc(var(--vh, 1vh) * 100);
 }
 
 .u-prevent-jump {
-    transition: height 1000s steps(1);
+    transition: min-height 1000s steps(1);
 }
 
 #header > div {
