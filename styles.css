@@ -229,7 +229,7 @@ footer {
   padding-top: 3%;
   padding-bottom: 3%;
   background-color: #434242;
-  
+
 }
 
 
@@ -239,6 +239,10 @@ footer {
 #header {
   height: 100vh; /* Fallback for browsers that do not support Custom Properties */
   height: calc(var(--vh, 1vh) * 100);
+}
+
+.u-prevent-jump {
+    transition: height 1000s steps(1);
 }
 
 #header > div {
