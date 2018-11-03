@@ -213,7 +213,7 @@ section {
 }
 
 #contacts {
-  margin: auto;
+  
 
 }
 
@@ -349,6 +349,11 @@ header {
 .box20 > p, .box40 > p, .box20 > ul {
   text-align: left;
 
+}
+
+#contacts {
+  text-align: left;
+  padding: 5px;
 }
 
 
