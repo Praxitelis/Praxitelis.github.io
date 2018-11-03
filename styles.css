@@ -229,12 +229,10 @@ footer {
   padding-top: 3%;
   padding-bottom: 3%;
   background-color: #434242;
-
+  
 }
 
-footer > div > p {
-  color: white;
-}
+
 
 /*====================== MEDIA QUERIES ==============================*/
 @media screen and (min-width: 600px) {
