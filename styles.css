@@ -443,8 +443,8 @@ header {
     border-radius: 5% 5% 0 0;
     background-color: #E27D5F;
     position: absolute;
-    right: 0;
-    bottom: 0;
+    left: 50%;
+    margin-left: -30px;
   }
 
 
