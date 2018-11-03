@@ -452,6 +452,12 @@
 		    document.getElementById('stick-bottom').style.bottom = '0px';
 
 		};
+window.addEventListener("orientationchange", function() {
+   var thisheight = window.innerHeight +'px';
+		    document.querySelector('header').style.height = thisheight;
+		    document.getElementById('stick-bottom').style.bottom = '0px';
+});
+		
 
 		window.onload = function(event) {
 			var thisheight = window.innerHeight +'px';
